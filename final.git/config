@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+	sharedrepository = 1
+[receive]
+	denyNonFastFortward = true
+[remote "origin"]
+	url = https://github.com/FraneODK/final.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
